@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navigation_view" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="gyvunai" type="id" />
+    <item name="darbuotojai" type="id" />
+    <item name="iranga" type="id" />
+    <item name="nustatymai" type="id" />
+    <item name="statistika" type="id" />
+    <item name="naudotojas" type="id" />
+    <item name="pagrindinis" type="id" />
+    <item name="profilis" type="id" />
+    <item name="action_addFragment_to_listFragment" type="id" />
+    <item name="updateAnimal" type="id" />
+    <item name="listAnimal" type="id" />
+</resources>

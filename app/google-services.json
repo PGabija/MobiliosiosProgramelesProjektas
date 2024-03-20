@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "880373136104",
+    "project_id": "login-reg-67375",
+    "storage_bucket": "login-reg-67375.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880373136104:android:eae74ad8ec00c2818c275d",
+        "android_client_info": {
+          "package_name": "eif.viko.lt.gposkaite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApmmgZrl7_E4MGWU-kpiJZ_1D9QapB7b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880373136104:android:e121c58a89d109b28c275d",
+        "android_client_info": {
+          "package_name": "np.com.bimalkafle.MyFarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApmmgZrl7_E4MGWU-kpiJZ_1D9QapB7b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880373136104:android:9d6a94da6c195d318c275d",
+        "android_client_info": {
+          "package_name": "np.com.bimalkafle.miniclip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApmmgZrl7_E4MGWU-kpiJZ_1D9QapB7b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:icon="@drawable/widget"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFarm"
+        tools:targetApi="31">
+        <activity
+            android:name=".myFarm.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myFarm.presentation.Main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myFarm.presentation.Animals.AnimalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myFarm.presentation.Employees.EmployeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myFarm.presentation.Devices.DevicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".myFarm.SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyFarm">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".myFarm.widget.AnimalListWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/animal_list_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>
